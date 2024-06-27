@@ -2,13 +2,11 @@ package udemy.Karimov.DSA.arrays;
 
 import java.util.Arrays;
 
-/*Write a function which takes integer array as a parameter and returns 
- * a new integer array with unique elements. (remove duplicates)
+/*Given an image represented by an NxN matrix write a method to rotate the image by 90 degrees.
 
-	Example
-	
-	removeDuplicates({1, 1, 2, 2, 3, 4, 5})
-	Output : [1, 2, 3, 4, 5]
+You have to rotate the image in-place, which means you have to modify the input 2D matrix directly.
+
+DO NOT allocate another 2D matrix and do the rotation.
  * 
  */
 public class RemoveDuplicates {
