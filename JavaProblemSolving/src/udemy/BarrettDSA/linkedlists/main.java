@@ -10,10 +10,11 @@ public class main {
 		alist.append(3);
 		alist.append(4);
 		alist.append(5);
-//		alist.append(6);
+		alist.append(6);
 		
 		alist.printAll();
-		System.out.println("Middle: " + alist.findMiddleNode());
+		boolean loop = alist.hasLoop();
+		System.out.println("Loop: " + loop);
 	}
 
 }
