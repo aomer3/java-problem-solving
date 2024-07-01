@@ -13,8 +13,7 @@ public class main {
 		alist.append(6);
 		
 		alist.printAll();
-		boolean loop = alist.hasLoop();
-		System.out.println("Loop: " + loop);
+		System.out.println("Return knth: " + alist.findKthFromEnd(5).value);
 	}
 
 }
